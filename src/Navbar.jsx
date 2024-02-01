@@ -4,28 +4,6 @@ import { useEffect } from 'react';
 
 function Navbar() {
 
-    // useEffect hook is used here
-  useEffect(() => {
-    // Code inside this block runs after the component has been rendered
-
-    // Enable hover on navbar items with dropdown
-    const dropdownItems = document.querySelectorAll('.navbar-nav .nav-item .dropdown');
-    dropdownItems.forEach((item) => {
-      item.addEventListener('mouseover', () => {
-        item.querySelector('.dropdown-toggle').click();
-      });
-
-      item.addEventListener('mouseout', () => {
-        item.querySelector('.dropdown-toggle').click();
-      });
-    });
-
-    // The return statement here can be used to clean up the effect if needed
-    return () => {
-      // Cleanup code (optional)
-    };
-  }, []); // The empty array [] as the second argument means this effect runs once after the initial render
-
 
   return (
     <>
@@ -44,7 +22,8 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <div className="mx-auto"></div>
         <ul className='navbar-nav d-flex justify-content-between'>
-              <li className="nav-item"><a className="nav-link" href="#" role="button" aria-expanded="false">
+              <li className="nav-item">
+                <a className="nav-link" href="#" role="button" aria-expanded="false">
                   COURCES
                 </a></li>
               <li className="nav-item dropdown">

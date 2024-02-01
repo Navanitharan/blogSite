@@ -1,12 +1,40 @@
+.blog-nav .nav-link, .active {
+  margin-left: 20px;
+  position: relative;
+  background-color: #fff;
+}
 
-ul{
-  list-style: none;
+.blog-nav .nav-link::after {
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 0; /* Set initial width to 0 */
+  position: absolute;
+  top: 80px;
+  left: 0;
+  animation: hoverglow 0.4s;
+  animation-fill-mode: forwards;
 }
-ul li{
-  font-weight: 600;
-  color:rgb(96, 101, 105);
+
+.blog-nav .nav-link:hover::after,
+.blog-nav .active::after {
+  content: '';
+  opacity: 1;
+  width: 100%; /* Set width to 100% for hover and active states */
+  background-color: greenyellow;
 }
-.desc{
-  font-size: 14px;
-  color: rgb(120, 120, 120);
+
+@keyframes hoverglow {
+  0% {
+    rotate: 180deg;
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+    background-color: greenyellow;
+  }
+  100% {
+    width: 100%;
+    background-color: greenyellow;
+  }
 }
