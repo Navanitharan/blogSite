@@ -7,7 +7,7 @@ let careerCard=[{
     description:"If your New Year resolution consists of building a successful tech career in 2024, then"
   },
   {
-    img:"https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-UIUX-Designer-Roles-Responsibilities-Job-Description.jpg",
+    img:"https://github.com/Navanitharan/blogSite/assets/102136576/89e95835-e817-4b33-9970-8de96dac4250",
     name:"UI/UX Designer Job Description and Roles & Responsibilities",
     description:"UI UX is the abbreviated word that’s been rocking the trend over the years, especially"
   },
