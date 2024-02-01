@@ -18,7 +18,7 @@ function Header() {
             >
               <img
                 style={{ height: "200px", width: "100%" }}
-                src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header.png"
+                src="https://github.com/Navanitharan/blogSite/assets/102136576/fcaf57af-900e-4004-af5e-553c61cf098e"
                 alt="Header"
               />
             </Link>

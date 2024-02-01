@@ -11,7 +11,7 @@ function Navbar() {
   <nav className="navbar navbar-expand-lg d-flex">
       <div className="logo nav-brand">
         <a href="https://guvi.in/blog/">
-          <img width="121" height="53" src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="Guvi-blog-logo"/> 
+          <img width="121" height="53" src="https://github.com/Navanitharan/blogSite/assets/102136576/9f30a150-946d-427c-af40-c948726cb204" alt="Guvi-blog-logo"/> 
         </a>
       </div>
 
